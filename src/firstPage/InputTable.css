@@ -1,0 +1,12 @@
+.input-table {
+    display: flex;
+gap: 40px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  .row {
+    margin-bottom: 20px;
+  }
+

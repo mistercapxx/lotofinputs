@@ -1,0 +1,27 @@
+.light-and-dark {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .column {
+    width: 45%;
+  }
+  
+  .light-theme {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+  }
+  
+  .dark-theme {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .divider {
+    width: 2px;
+    background-color: #ccc;
+    height: 100%;
+  }

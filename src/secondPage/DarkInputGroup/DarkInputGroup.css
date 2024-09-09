@@ -1,0 +1,93 @@
+.dark-input-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .dark-input-label {
+    
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: block;
+    text-align: center; 
+width: 62%;
+color: white;
+padding-left: 10px; 
+  }
+  .dark-email-hint
+  {
+    margin-left: 8px;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+   
+  }
+  .dark-input-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .dark-input-text {
+    width: 35%;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #222;
+    color: white;
+  }
+  .dark-input-text.default {
+    border: 1px solid #555;
+  }
+  .dark-input-text.hover {
+    border: 1px solid #777;
+    background-color: #333;
+  }
+  .dark-input-text.focus {
+    border: 1px solid var(--Colors-Border-border-brand, rgba(83, 177, 253, 1));
+    outline: none;
+    background-color: #333;
+  }
+  .dark-input-text.error {
+    border: 1px solid #f00;
+  }
+  .dark-input-text.error-focus {
+    border: 3px solid #f00;
+  }
+  .dark-input-text.disabled {
+    border: 1px solid #555;
+    background-color: #333;
+    color: #666;
+    cursor: not-allowed;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .dark-search-icon {
+    left: calc(50% - 20.5%); 
+  }
+  
+  .dark-hint-icon {
+    right: calc(50% - 15%);
+    cursor: pointer;
+    color: white;
+
+  }
+  .dark-shortkey-icon
+  {
+    right: calc(50% - 20%);
+  }
+  .dark-hint-text
+  {
+
+  padding-top: 12px;
+    text-align: center; 
+    font-size: 13px;
+    color: white;
+
+  }

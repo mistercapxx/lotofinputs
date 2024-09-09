@@ -1,0 +1,38 @@
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.large-font .input-label {
+  font-size: 18px; 
+}
+.large-font .input-text::placeholder {
+  font-size: 16px; 
+}
+.input-group-horizontal {
+margin-top: 2px;
+  width: 78%;
+  
+}
+
+.input-group-horizontal .input-label {
+  transform: translateY(205%);
+  text-align: left;
+
+}
+
+
+
+.input-group-horizontal .input-text {
+  margin-left: 322px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  
+}
+
+.input-group-horizontal .input-text.large-font {
+  font-size: 16px;
+  padding: 12px;
+}
